@@ -11,10 +11,11 @@ particlesJS('particles-js', {
       value: '#ffffff' 
     },
     shape: {
-      type: 'circle', 
-      stroke: {
-        width: 0,
-        color: '#000000'
+      type: 'image', 
+      image: {
+        src: '/images/heart1.png',
+        width: 25,
+        height: 50
       },
       polygon: {
         nb_sides: 5
