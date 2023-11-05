@@ -13,7 +13,7 @@ particlesJS('particles-js', {
     shape: {
       type: 'image', 
       image: {
-        src: 'heart1.png',
+        src: '/heart1.png',
         width: 25,
         height: 50
       },
