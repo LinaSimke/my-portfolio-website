@@ -1,0 +1,36 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.social-media {
+  margin-top: 20px;
+}
+
+.social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-media img {
+  width: 30px;
+  height: auto;
+}
+
+.message {
+  margin-top: 50px;
+}
+
+img.profile-photo {
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+}
