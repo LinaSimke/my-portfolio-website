@@ -65,25 +65,6 @@ body, html {
   text-decoration: underline; 
 }
 
-/*@keyframes neon {
-  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
-    text-shadow:
-      0 0 3px rgba(255, 0, 0, 0.7),
-      0 0 10px rgba(255, 0, 0, 0.5),
-      0 0 5px rgba(255, 200, 200, 0.5),
-      0 0 7px rgba(255, 200, 200, 0.7);
-    color: #0a089e;
-  }
-  20%, 24%, 55% {
-    text-shadow:
-      0 0 3px rgba(0, 255, 0, 0.7),
-      0 0 10px rgba(0, 255, 0, 0.5),
-      0 0 5px rgba(200, 255, 200, 0.5),
-      0 0 7px rgba(200, 255, 200, 0.7);
-    color: #80ff00;
-  }
-}*/
-
 h1 {
   font-size: 3em;
   margin: 0.5em 0;
