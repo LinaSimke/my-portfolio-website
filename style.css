@@ -73,6 +73,27 @@ h1 {
   animation: neon 1.5s infinite alternate;
 }
 
+@media (max-width: 768px) {
+  .profile-photo {
+    width: 150px; 
+  }
+
+  .container {
+    width: 90%; 
+    top: 30%; 
+    transform: translateY(-30%); 
+  }
+
+  h1 {
+    font-size: 2em; 
+  }
+
+  .message, .contact-message {
+    font-size: 1em; 
+    margin: 20px; 
+  }
+}
+
 h3 {
   font-size: 1em;
   margin: 30px;
@@ -80,10 +101,23 @@ h3 {
 
 
 .profile-photo {
-  border-radius: 50%;
-  width: 300px; 
+  border-radius: 10%;
+  width: 250px;
+  max-width: 100%; 
   height: auto;
   margin: 0 auto; 
   display: block;
   border: 5px solid #fff; 
 }
+
+@media (max-width: 768px) {
+  .profile-photo {
+    width: 150px; 
+  }
+
+  .container {
+    width: 90%; 
+  }
+
+}
+
